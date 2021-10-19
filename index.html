@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<head>
+<title>Bohemia Organa Design Studio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+<style>
+*{
+  margin: 0;
+  padding: 0;
+} 
+
+.fnd, .twit, .ig {width: 80vw;}
+
+.email {width: 80vw; padding-bottom: 10%;}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+body {
+font-family: 'Inter', sans-serif;
+}
+
+.main {
+  width: 60vw;
+  padding-left: 20%;
+  padding-right: 10%;
+  
+}
+
+.nav {
+  width: 5.5vw;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+h1 {
+padding-top: 4%;
+padding-left: 10%;
+font-size: 3vw;
+padding-right: 2%;
+}
+
+p {
+padding-left: 10%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 5vw;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 5vw;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="https://foundation.app/@bohemiaorgana" target="_blank"><img class="fnd" src="fnd.png"></a>
+<a href="https://twitter.com/BOHEMIAORGANA" target="_blank"><img class="twit" src="twit.png"></a></a>
+  <a href="https://www.instagram.com/bohemiaorgana230/" target="_blank"><img class="ig" src="ig.png"></a>
+  <a href="mailto:hey@bohemiaorgana.studio" target="_blank"><img class="email" src="email.png"></a>
+  
+</div>
+
+<div id="main">
+<h1>Bohemia Organa is a design studio slash art practice 
+specializing in creative consulting and digital products.</h1> <br>
+  <p><i>Commerical portfolio upon request</i></p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav" src="nav.png"/></span>
+
+  <img class="main" src="bohemia.png"/>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
