@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<head>
+<title>thoughts digitized</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+<style>
+*{
+  margin: 0;
+  padding: 0;
+} 
+
+.fnd, .twit, .ig, .email {width: 80vw;}
+
+.email {padding-bottom: 20%;}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+body {
+font-family: 'Inter', sans-serif;
+
+}
+
+.nav {
+  width: 100px;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 5vw;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 8vw;
+  margin-left: 100px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 8vw;}
+  .nav {width: 80px;}
+  h1 {font-size: 8vw;}
+}
+
+h1 {
+	padding-left: 20%;
+	padding-top: 10%;
+  padding-right: 10%;
+
+	padding-bottom: 10%;
+}
+a{color: blue;}
+</style>
+</head>
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="https://foundation.app/@bohemiaorgana" target="_blank"><img class="fnd" src="fnd.png"></a>
+ <a href="https://rarible.com/bohemiaorgana" target="_blank"><img class="fnd" src="rarible.png"></a>
+<a href="https://twitter.com/BOHEMIAORGANA" target="_blank"><img class="twit" src="twit.png"></a></a>
+  <a href="https://www.instagram.com/bohemiaorgana230/" target="_blank"><img class="ig" src="ig.png"></a>
+  <a href="https://www.computerbitch.blog" target="_blank"><img class="fnd" src="blog.png"></a>
+  <a href="mailto:hey@bohemiaorgana.studio" target="_blank"><img class="email" src="email.png"></a> 
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav" src="nav.png"/></span>
+  <h1>Oct. 21, 2021 <br> Artist Statement <br><br>
+  <p>The intent of my art practice is to explore my individualistic visual storytelling. By utilizing found images within the Public Domain for repurpose in fusion with the experimentation of technological technicality. Or the creation of typographic art as I am formerly trained in commercial design and a fanatic of idioms.</p> <br>
+  <p>As I thrive off uncertainty, I extend that to my artwork and strive to challenge objective reality and conventionality within a grotesque art aesthetic. Not entirely married to one stylistic preference but rather conceptual thinking is equipped with each artwork created. I acknowledge that I have a flair for the dramatic.</p> <br>
+  <p>Philosophical and psychological underpinnings embedded in my work- as I try to weave in my moral compass (prioritized value by nature). <a href="https://en.wikipedia.org/wiki/Stoicism" target="_blank">Stoicism</a>, <a href="https://en.wikipedia.org/wiki/Neuroplasticity" target="_blank">neuroplasticity</a>, <a href="https://en.wikipedia.org/wiki/Free_will" target="_blank">free will</a>, and the <a href="https://en.wikipedia.org/wiki/Shadow_(psychology)">Shadow</a> (Jungian term) are some of the topics I fancy pondering about and create pieces that incapsulate how I perceive the knowledge visually. 
+  </p> <br>
+  <a href="https://www.computerbitch.blog" target="_blank">Go back to homepage.</a></h1>
+</div>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+</script>
+   
+</body>
+</html> 
